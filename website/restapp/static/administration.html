@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administration - Golden Spoon Café</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #c4ba2b;
+    }
+
+    header {
+      background-color: #80c2a3;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #6db5bd;
+    }
+
+    header img {
+      height: 100px;
+      width: 200px;
+      vertical-align: middle;
+    }
+
+    header h1 {
+      display: inline;
+      margin-left: 10px;
+      font-size: 48px;
+      color: #69133c;
+      font-family: 'Goudy Old Style', serif;
+      font-style: italic;
+    }
+
+    header h2 {
+      font-size: 24px;
+      font-family: 'Goudy Old Style', serif;
+      color: #333;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+      float: left;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .administration {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .chef {
+      background-color: #f8f8f8;
+      padding: 20px;
+      margin: 10px;
+      width: 23%; /* Adjust width to make sure they fit side by side */
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      transition: transform 0.3s ease; /* Optional: for hover effect */
+    }
+
+    .chef img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .chef {
+        width: 48%; /* On smaller screens, reduce to 2 per row */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .chef {
+        width: 100%; /* On mobile screens, display one per row */
+      }
+    }
+
+    .chef:hover {
+      transform: scale(1.05); /* Optional: zoom effect on hover */
+    }
+
+    footer {
+  text-align: center;
+  padding: 30px;  /* Increased padding for more height */
+  background-color: #0f0e0c;
+  color: rgb(187, 188, 79);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="c:\Users\admin\restweb\website\restapp\static\logo.jpeg" alt="Golden Spoon Café Logo" height="100" width="100"><br><br>
+    <h1>Golden Spoon Café</h1><br>
+    <h2><font size="6">Administration</font></h2>
+  </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="administration.html">Administration</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  <section id="administration">
+    <h2>ABOUT US</h2>
+    <div class="administration">
+      <div class="chef">
+        <img src="c:\Users\admin\restweb\website\restapp\static\360_F_899322095_66CYDyDXIc8y0OCg7kpB0FvicVzVGcuE.jpg" alt="Dr. Chef Meril">
+        <h3>Dr. Chef Meril</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="chef">
+        <img src="c:\Users\admin\restweb\website\restapp\static\360_F_632778789_Kjqi8QZ3dYyp9lEWwgP4NrZCp9anb4dl.jpg" alt="Chef Keerthika">
+        <h3>Chef Keerthika</h3>
+        <p>CO-FOUNDER</p>
+      </div>
+      <div class="chef">
+        <img src="c:\Users\admin\restweb\website\restapp\static\beautiful-korean-chef-girl-is-ready-cook-food-restaurant-kitchen_148840-14836.jpg" alt="Chef Briney">
+        <h3>Chef Briney</h3>
+        <p>MANAGER</p>
+      </div>
+      <div class="chef">
+        <img src="c:\Users\admin\restweb\website\restapp\static\unnamed.jpg" alt="Dr. Chef Damu">
+        <h3>Dr. Chef Damu</h3>
+        <p>ASSISTANT MANAGER</p>
+      </div>
+      <!-- Centered Chef Cards -->
+      <div class="chef">
+        <img src="c:\Users\admin\restweb\website\restapp\static\channels4_profile.jpg" alt="Chef Venkatesh Bhat">
+        <h3>Chef Venkatesh Bhat</h3>
+        <p>SENIOR MASTER CHEF</p>
+      </div>
+
+      <div class="chef">
+        <img src="c:\Users\admin\restweb\website\restapp\static\download.jpeg" alt="Chef Sivaangi Krishnakumar">
+        <h3>Chef Sivaangi Krishnakumar</h3>
+        <p>JUNIOR CHEF</p>
+      </div>
+</div>
+</section>
+<footer>
+Designed by MERIL GOLDLINA A (24007299)
+</footer>
+</body>
+</html>
